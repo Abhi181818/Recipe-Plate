@@ -1,0 +1,71 @@
+body {
+  background-color: #1c1b22;
+  /* margin: 0% 15%; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: 'Andika';
+}
+
+.img-card:hover {
+  transition-duration: 0.5s;
+  scale: 1.2;
+  opacity: 0.8;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: 'Andika';
+  color: aliceblue;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Andika';
+  color: aliceblue;
+}
+
+h5 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Andika';
+  color: whitesmoke;
+}
+
+h6 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-family: 'Andika';
+  color: whitesmoke;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: whitesmoke;
+  font-family: 'Andika';
+
+}
+
+p {
+  font-family: "Andika";
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: rgb(124, 124, 124);
+  opacity: 0.7;
+  text-decoration: solid;
+}
+
+
+
+/* .sidebar.fixed{
+  position: sticky;
+} */
