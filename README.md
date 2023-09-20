@@ -1,7 +1,7 @@
 # Recipe Plate
 It is a app which can get all details of any recipie.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) ,Tailwind, Bootstrap.
+This project uses ReactJS,Spoonacular API (to fetch data), Tailwind, Bootstrap.
 
 ## Available Scripts
 
