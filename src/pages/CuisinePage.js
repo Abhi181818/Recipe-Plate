@@ -16,7 +16,7 @@ function CuisinePage() {
     }
 
     else {
-      const data = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.REACT_APP_API_KEY}&number=20&cuisine=${name}`)
+      const data = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=2c5fcbdd007f453498a6a76d331b6f7d&number=20&cuisine=${name}`)
       const response = await data.json();
       localStorage.setItem('cuisine', JSON.stringify(response.results))
       setCuisine(response.results);
