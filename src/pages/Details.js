@@ -19,7 +19,7 @@ function Details() {
             setIngred(JSON.parse(check2))
             console.log(details)
         } else {
-            let data = await fetch(`https://api.spoonacular.com/recipes/${id}/information?apiKey=${process.env.REACT_APP_API_KEY}`)
+            let data = await fetch(`https://api.spoonacular.com/recipes/${id}/information?apiKey= 2c5fcbdd007f453498a6a76d331b6f7d `)
             let response = await data.json()
             localStorage.setItem("details", JSON.stringify(response))
             localStorage.setItem('ingridients', JSON.stringify(response.extendedIngredients))
