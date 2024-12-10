@@ -11,7 +11,7 @@ function SearchC() {
 
     }, [params.search])
     const getCuisine = async (name) => {
-        const data = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.REACT_APP_API_KEY}&query=${name}`)
+        const data = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=2c5fcbdd007f453498a6a76d331b6f7d&query=${name}`)
         const response = await data.json();
         setCuisine(response.results);
     }
